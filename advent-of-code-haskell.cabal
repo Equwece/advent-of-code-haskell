@@ -59,7 +59,8 @@ library
 
     -- Modules exported by the library.
     exposed-modules:  MyLib,
-                      Day1
+                      Day1,
+                      Day2
 
     -- Modules included in this library but not exported.
     -- other-modules:
