@@ -63,7 +63,8 @@ library
                       Year2022.Day3,
                       Year2022.Day4,
                       Year2022.Day5,
-                      Year2022.Day6
+                      Year2022.Day6,
+                      Year2022.Day7
 
     -- Modules included in this library but not exported.
     -- other-modules:

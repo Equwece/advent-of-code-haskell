@@ -1,6 +1,6 @@
 module Main where
 
-import Year2022.Day6
+import Year2022.Day7
 
 main :: IO ()
-main = processPacket2
+main = getDirSize2
