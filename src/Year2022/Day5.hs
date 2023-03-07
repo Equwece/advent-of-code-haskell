@@ -1,6 +1,3 @@
-{-# OPTIONS_GHC -Wno-unrecognised-pragmas #-}
-
-{-# HLINT ignore "Avoid lambda" #-}
 module Year2022.Day5 (supplyStacks1, supplyStacks2) where
 
 import Control.Lens
