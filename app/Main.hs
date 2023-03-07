@@ -1,8 +1,6 @@
 module Main where
 
--- import Day1
--- import Day2
-import Day4
+import Year2022.Day5
 
 main :: IO ()
-main = countPartiallyIntersectingSections
+main = supplyStacks2

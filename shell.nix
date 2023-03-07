@@ -10,7 +10,6 @@ let
   });
 
   myHaskellPkgsOverlay = (hSelf: hSuper: {
-    # "myproject" is the first part of the "myproject.cabal" project definition file
     myProject = hSelf.callCabal2nix "advent-of-code-haskell" ./. {};
   });
   

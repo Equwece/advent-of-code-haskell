@@ -1,4 +1,4 @@
-module Day1 (
+module Year2022.Day1 (
   readStringToInt,
   countCalories,
   splitByNewLine,

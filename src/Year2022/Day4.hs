@@ -1,4 +1,4 @@
-module Day4 (countIntersectingSections, countPartiallyIntersectingSections) where
+module Year2022.Day4 (countIntersectingSections, countPartiallyIntersectingSections, splitBy) where
 --------------------
 -- Task 1
 --------------------
@@ -10,7 +10,8 @@ countIntersectingSections = do
   print result
 
 splitBy :: Eq a => a -> [a] -> [[a]]
-splitBy del str = [take delIndex str, drop (delIndex + 1) str]
+splitBy _ [] = []
+splitBy del str = take delIndex str : splitBy del (drop (delIndex + 1) str)
   where
     delIndex = length . takeWhile (/=del) $ str
 

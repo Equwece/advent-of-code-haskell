@@ -1,4 +1,4 @@
-module Day3 (getWrongItemPropertySum, getGroupItemSum) where
+module Year2022.Day3 (getWrongItemPropertySum, getGroupItemSum) where
 import Data.Char (ord, isUpper)
 
 --------------------

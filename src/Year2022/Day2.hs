@@ -1,4 +1,4 @@
-module Day2 (getTotalScore, getTotalScore') where
+module Year2022.Day2 (getTotalScore, getTotalScore') where
 
 --------------------
 -- Task 1
