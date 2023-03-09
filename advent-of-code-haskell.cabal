@@ -45,8 +45,6 @@ maintainer:         99554597+Equwece@users.noreply.github.com
 build-type:         Simple
 
 -- Extra doc files to be distributed with the package, such as a CHANGELOG or a README.
-extra-doc-files:    CHANGELOG.md
-
 -- Extra source files to be distributed with the package, such as examples, or a tutorial module.
 -- extra-source-files:
 
@@ -64,7 +62,8 @@ library
                       Year2022.Day4,
                       Year2022.Day5,
                       Year2022.Day6,
-                      Year2022.Day7
+                      Year2022.Day7,
+                      Year2022.Day8
 
     -- Modules included in this library but not exported.
     -- other-modules:
@@ -74,7 +73,9 @@ library
 
     -- Other library packages from which modules are imported.
     build-depends:    base ^>=4.16.3.0,
-                      lens
+                      lens,
+                      matrix,
+                      vector
 
     -- Directories containing source files.
     hs-source-dirs:   src
@@ -99,7 +100,9 @@ executable advent-of-code-haskell
     build-depends:
         base ^>=4.16.3.0,
         advent-of-code-haskell,
-        lens
+        lens,
+        matrix,
+        vector
 
     -- Directories containing source files.
     hs-source-dirs:   app
@@ -133,4 +136,6 @@ test-suite advent-of-code-haskell-test
     build-depends:
         base ^>=4.16.3.0,
         advent-of-code-haskell,
-        lens
+        lens,
+        matrix,
+        vector

@@ -1,6 +1,6 @@
 module Main where
 
-import Year2022.Day7
+import Year2022.Day8
 
 main :: IO ()
-main = getDirSize2
+main = countVisibleTrees2
